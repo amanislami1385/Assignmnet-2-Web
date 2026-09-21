@@ -1,0 +1,363 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assignment 2 - Advanced CSS</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <h1>Advanced CSS Library</h1>
+    <p>Assignment 2: Flexbox and Grid</p>
+</header>
+
+<main>
+
+    <section class="section">
+        <h2>Task 1: Geometric Composition</h2>
+
+        <div class="geometric-grid">
+            <div class="shape shape-one"></div>
+            <div class="shape shape-two"></div>
+            <div class="shape shape-three"></div>
+            <div class="shape shape-four"></div>
+            <div class="shape shape-five"></div>
+            <div class="shape shape-six"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Task 2: Component Library</h2>
+
+        <div class="component">
+            <h3>Navigation Bar</h3>
+
+            <nav class="navbar">
+                <a class="logo" href="#">CodeLab</a>
+
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div class="nav-buttons">
+                    <button>Login</button>
+                    <button>Sign Up</button>
+                </div>
+            </nav>
+        </div>
+
+        <div class="component">
+            <h3>Cards</h3>
+
+            <div class="cards">
+                <article class="card">
+                    <h4>HTML</h4>
+                    <p>
+                        HTML provides the structure of a webpage.
+                        It uses semantic elements to organize content.
+                    </p>
+                    <button>Learn More</button>
+                </article>
+
+                <article class="card">
+                    <h4>CSS</h4>
+                    <p>
+                        CSS controls colors, typography, spacing,
+                        layouts, and responsive visual design.
+                    </p>
+                    <button>Learn More</button>
+                </article>
+
+                <article class="card">
+                    <h4>Flexbox</h4>
+                    <p>
+                        Flexbox is useful for arranging items in rows
+                        or columns and aligning content.
+                    </p>
+                    <button>Learn More</button>
+                </article>
+            </div>
+        </div>
+
+        <div class="component">
+            <h3>Pagination</h3>
+
+            <div class="pagination">
+                <button>←</button>
+
+                <div class="page-numbers">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                </div>
+
+                <button>→</button>
+
+                <span class="result-count">Showing 1–12 of 48 results</span>
+            </div>
+        </div>
+
+        <div class="component">
+            <h3>Comment Block</h3>
+
+            <div class="comment">
+                <div class="avatar">AI</div>
+
+                <div class="comment-content">
+                    <h4>Aman Islami</h4>
+                    <p>
+                        This assignment helped me understand how Flexbox
+                        and Grid can solve different layout problems.
+                        The text remains beside the avatar when it wraps.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="component">
+            <h3>Pricing Table</h3>
+
+            <div class="pricing">
+                <article class="price-card">
+                    <h4>Basic</h4>
+                    <p class="price">$9</p>
+                    <p>For beginners and small projects.</p>
+
+                    <ul>
+                        <li>Basic support</li>
+                        <li>5 projects</li>
+                    </ul>
+
+                    <button>Choose Plan</button>
+                </article>
+
+                <article class="price-card recommended">
+                    <span class="recommended-label">Recommended</span>
+
+                    <h4>Professional</h4>
+                    <p class="price">$19</p>
+                    <p>For students and professional developers.</p>
+
+                    <ul>
+                        <li>Priority support</li>
+                        <li>Unlimited projects</li>
+                        <li>Advanced tools</li>
+                    </ul>
+
+                    <button>Choose Plan</button>
+                </article>
+
+                <article class="price-card">
+                    <h4>Premium</h4>
+                    <p class="price">$39</p>
+                    <p>For teams and advanced users.</p>
+
+                    <ul>
+                        <li>Team support</li>
+                        <li>Unlimited projects</li>
+                    </ul>
+
+                    <button>Choose Plan</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Task 3: Three Layouts, One Markup</h2>
+
+        <p class="instruction">
+            Change the class from layout-grid to layout-list or layout-magazine
+            in order to test the three layouts.
+        </p>
+
+        <div class="products layout-grid">
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=1"
+                     alt="Technology image">
+
+                <div class="product-content">
+                    <h3>Introduction to HTML</h3>
+                    <p>
+                        Learn how HTML creates the basic structure
+                        of websites and web applications.
+                    </p>
+                    <span class="date">01 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=2"
+                     alt="Coding image">
+
+                <div class="product-content">
+                    <h3>Understanding CSS</h3>
+                    <p>
+                        CSS is used to style websites with colors,
+                        fonts, spacing, and layouts.
+                    </p>
+                    <span class="date">02 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=3"
+                     alt="Computer image">
+
+                <div class="product-content">
+                    <h3>CSS Grid Layout</h3>
+                    <p>
+                        Grid creates two-dimensional layouts
+                        using rows and columns.
+                    </p>
+                    <span class="date">03 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=4"
+                     alt="Laptop image">
+
+                <div class="product-content">
+                    <h3>Flexbox Basics</h3>
+                    <p>
+                        Flexbox is designed for arranging and
+                        aligning elements in one direction.
+                    </p>
+                    <span class="date">04 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=5"
+                     alt="Programming image">
+
+                <div class="product-content">
+                    <h3>Responsive Design</h3>
+                    <p>
+                        Responsive design allows content to work
+                        on different screen sizes.
+                    </p>
+                    <span class="date">05 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=6"
+                     alt="Web development image">
+
+                <div class="product-content">
+                    <h3>Semantic HTML</h3>
+                    <p>
+                        Semantic elements make websites more
+                        understandable and accessible.
+                    </p>
+                    <span class="date">06 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=7"
+                     alt="Code image">
+
+                <div class="product-content">
+                    <h3>CSS Selectors</h3>
+                    <p>
+                        Selectors help developers target specific
+                        HTML elements for styling.
+                    </p>
+                    <span class="date">07 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=8"
+                     alt="Design image">
+
+                <div class="product-content">
+                    <h3>Typography</h3>
+                    <p>
+                        Typography improves readability through
+                        font choice, size, and spacing.
+                    </p>
+                    <span class="date">08 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=9"
+                     alt="Computer screen image">
+
+                <div class="product-content">
+                    <h3>CSS Spacing</h3>
+                    <p>
+                        Margin, padding, and gap create space
+                        between elements.
+                    </p>
+                    <span class="date">09 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=10"
+                     alt="Web design image">
+
+                <div class="product-content">
+                    <h3>Web Accessibility</h3>
+                    <p>
+                        Accessibility makes websites easier
+                        to use for different users.
+                    </p>
+                    <span class="date">10 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=11"
+                     alt="Developer image">
+
+                <div class="product-content">
+                    <h3>Clean Code</h3>
+                    <p>
+                        Clean code is organized, readable,
+                        reusable, and easier to maintain.
+                    </p>
+                    <span class="date">11 Sep 2026</span>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="https://picsum.photos/400/250?random=12"
+                     alt="Technology workspace image">
+
+                <div class="product-content">
+                    <h3>Web Projects</h3>
+                    <p>
+                        Combining HTML and CSS helps developers
+                        create complete web projects.
+                    </p>
+                    <span class="date">12 Sep 2026</span>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Created by Aman Islami | IT-2510</p>
+</footer>
+
+</body>
+</html>
